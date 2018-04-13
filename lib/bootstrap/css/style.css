@@ -1,0 +1,67 @@
+﻿.navbar-brand > img {
+    width: 16%;
+    height: auto;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+    background-color: white;
+    font-size: 1.5em;
+}
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a {
+    color: black;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
+    color: rgb(95, 124, 255); 
+}
+#home {
+    background: url("../../../assets/background1.jpg") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    color: azure;
+}
+#self-img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+}
+.padding {
+    padding: 80px 0;
+}
+.padding img {
+    width: 100%;
+}
+#fixed {
+    background: url("../../../assets/background1.jpg") no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.footer {
+    background-color: white;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 5% 5% 10% 5%; 
+    color: black; 
+}
